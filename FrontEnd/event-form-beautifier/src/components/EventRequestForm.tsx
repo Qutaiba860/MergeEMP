@@ -43,7 +43,7 @@ export default function EventRequestForm() {
   const [targetAudience, setTargetAudience] = useState("");
 
   // API Base URL (may need to change based on your current IP)
-  const API_BASE_URL = "http://172.16.1.31:8000";
+  const API_BASE_URL = "http://192.168.72.1:8000";
 
   // Form submission state
   const [isSubmitting, setIsSubmitting] = useState(false);
